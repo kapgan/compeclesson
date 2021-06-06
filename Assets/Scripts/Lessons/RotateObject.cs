@@ -12,7 +12,7 @@ public class RotateObject : MonoBehaviour
         {
             transform.Rotate(Vector3.up, _rotateSettings.Speed*Time.deltaTime);
        
-    }
-    }
+        }
+}
 
 }
