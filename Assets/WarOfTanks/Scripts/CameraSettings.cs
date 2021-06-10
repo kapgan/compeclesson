@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace WarOfTanks
 {
-    [CreateAssetMenu(menuName = "War Of Tanks/Camera/Camera Settings")]
+    [CreateAssetMenu(menuName = "War Of Tanks/Came  ",ra/Camera Settings")]
     public class CameraSettings : ScriptableObject
     {
         [Header("Rotation")]
