@@ -14,6 +14,7 @@ public class PlayerMovementController : MonoBehaviour
         {
             _rigidbody.MovePosition(_rigidbody.position + (_rigidbody.transform.forward * _inputData.Vertical*_playerMovementSettings.VerticalSpeed));
             _rigidbody.MovePosition(_rigidbody.position + (_rigidbody.transform.right * _inputData.Horizontal*_playerMovementSettings.HorizontalSpeed));
+         
         }
     }
 }
